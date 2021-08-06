@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: $white;
+	font-family: $body-font;
+}
+html {
+	font-size: 62.5%;
+
+	// @media only screen and (min-width: 1400px) {
+	// 	font-size: 83.5%;
+	// }
+	@media only screen and (max-width: 800px) {
+		font-size: 83.5%;
+	}
+	@media only screen and (max-width: 600px) {
+		font-size: 63.5%;
+	}
+	@media only screen and (max-width: 375px) {
+		font-size: 53.5%;
+	}
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}

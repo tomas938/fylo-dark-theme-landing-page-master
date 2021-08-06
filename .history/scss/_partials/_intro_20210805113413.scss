@@ -1,0 +1,15 @@
+.intro {
+	background-color: $intro-bg;
+	&__navigation {
+		display: flex;
+		justify-content: space-between;
+	}
+	img {
+		width: 10rem;
+		height: 7rem;
+	}
+	&__navigation__links {
+	}
+	&__description {
+	}
+}

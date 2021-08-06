@@ -1,0 +1,11 @@
+.informations {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: $main-bg;
+	&__image {
+	}
+	&__content {
+	}
+}

@@ -1,0 +1,18 @@
+@keyframes fadein {
+	0% {
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+@keyframes movein {
+	from {
+		transform: translateY(-100%);
+	}
+	to {
+		transform: translateY(0%);
+	}
+}

@@ -1,0 +1,10 @@
+.informations {
+	display: flex;
+	flex-direction: column;
+	background-color: $main-bg;
+	max-width: 60rem;
+	&__image {
+	}
+	&__content {
+	}
+}

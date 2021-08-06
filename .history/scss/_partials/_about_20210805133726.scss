@@ -1,0 +1,23 @@
+.about {
+	background-color: $main-bg;
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		grid-gap: 4rem;
+	}
+	.icon {
+	}
+	h3 {
+		font-size: 2.2rem;
+	}
+	p {
+		font-size: 1.4rem;
+		line-height: 2.3rem;
+	}
+	h3,
+	p {
+		text-align: center;
+	}
+}

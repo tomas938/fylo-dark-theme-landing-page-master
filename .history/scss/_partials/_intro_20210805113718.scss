@@ -1,0 +1,19 @@
+.intro {
+	background-color: $intro-bg;
+	&__navigation {
+		display: flex;
+		justify-content: space-between;
+	}
+	img {
+		width: 10rem;
+		height: 2.95rem;
+	}
+	&__navigation__links {
+		display: flex;
+	}
+	a {
+		color: $white;
+	}
+	&__description {
+	}
+}

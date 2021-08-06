@@ -1,0 +1,49 @@
+// COLORS //
+
+// ### Primary //
+
+$intro-bg: hsl(217, 28%, 15%); // intro email sign up
+$main-bg: hsl(218, 28%, 13%);
+$footer-bg: hsl(216, 53%, 9%);
+$testimonials-bg: hsl(219, 30%, 18%);
+
+// ### Accent //
+
+$cayn: hsl(176, 68%, 64%); //(inside call-to-action gradient)//
+$blue: hsl(198, 60%, 50%); //(inside call-to-action gradient)//
+$error: hsl(0, 100%, 63%);
+
+// ### Neutral //
+
+$white: hsl(0, 0%, 100%);
+
+// FONTS //
+
+// ### Headings, Call-to-actions, Header Navigation //
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+$heading-font: "Raleway", sans-serif;
+$heading-light: 400;
+$heading-bold: 700;
+
+// ### Body //
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+$body-font: "Open Sans", sans-serif;
+$body-light: 400;
+$body-bold: 700;
+
+// Button
+.blue-rounded {
+	font-size: 1.6rem;
+	font-weight: $heading-bold;
+	border: none;
+	outline: none;
+	color: $white;
+	background-image: linear-gradient(to right, $cayn, $blue);
+	border-radius: 3rem;
+	height: 6rem;
+	width: 100%;
+}

@@ -1,0 +1,19 @@
+.testimonials {
+	background-color: $main-bg;
+
+	&__item {
+		background-color: $testimonials-bg;
+		padding: 3rem;
+	}
+	.person {
+		display: flex;
+	}
+	img {
+		border-radius: 50%;
+		width: 4rem;
+		height: 4rem;
+	}
+	p {
+		font-size: 1.4rem;
+	}
+}

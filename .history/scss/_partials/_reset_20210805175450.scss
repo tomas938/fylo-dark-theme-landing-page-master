@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: $white;
+	font-family: $body-font;
+	overflow-y: hidden;
+}
+html {
+	font-size: 62.5%;
+	// @media only screen and (max-width: 375px) {
+	// 	font-size: 92.5%;
+	// }
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}

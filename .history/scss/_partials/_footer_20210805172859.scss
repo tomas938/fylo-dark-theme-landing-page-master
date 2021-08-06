@@ -1,0 +1,12 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	background-color: $footer-bg;
+	&__information {
+		display: flex;
+		flex-direction: column;
+	}
+	.logo {
+		width: 15rem;
+	}
+}

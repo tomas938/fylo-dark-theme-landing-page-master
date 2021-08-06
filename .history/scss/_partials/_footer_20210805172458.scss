@@ -1,0 +1,9 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	background-color: $footer-bg;
+	.contact {
+		display: flex;
+		flex-direction: column;
+	}
+}

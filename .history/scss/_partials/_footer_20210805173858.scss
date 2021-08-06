@@ -1,0 +1,33 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	grid-gap: 3rem;
+	background-color: $footer-bg;
+	padding: 3rem;
+	font-size: 1.4rem;
+
+	&__information {
+		display: flex;
+		flex-direction: column;
+		grid-gap: 3rem;
+	}
+	&__information__item {
+		display: flex;
+		grid-gap: 3rem;
+	}
+	.logo {
+		width: 20rem;
+		height: 7rem;
+	}
+	.links-up {
+		display: flex;
+		flex-direction: column;
+	}
+	img {
+		width: 2rem;
+		height: 2rem;
+	}
+	a {
+		color: $white;
+	}
+}

@@ -1,0 +1,31 @@
+.testimonials {
+	background-color: $main-bg;
+	padding: 3;
+
+	&__item {
+		background-color: $testimonials-bg;
+		padding: 3rem;
+		display: flex;
+		flex-direction: column;
+		grid-gap: 3rem;
+	}
+	.person {
+		display: flex;
+		align-items: center;
+		grid-gap: 1rem;
+	}
+	img {
+		border-radius: 50%;
+		width: 4rem;
+		height: 4rem;
+	}
+	p {
+		font-size: 1.4rem;
+	}
+	h4 {
+		font-size: 1.6rem;
+	}
+	h5 {
+		font-size: 1.2rem;
+	}
+}

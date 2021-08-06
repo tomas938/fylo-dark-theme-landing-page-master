@@ -1,0 +1,38 @@
+.contact {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	.contact__item {
+		position: absolute;
+		box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+		width: 90%;
+		transform: translateY(-50%);
+		z-index: 1;
+		background-color: $intro-bg;
+		padding: 3rem;
+		border-radius: 1rem;
+		max-width: 60rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		grid-gap: 3rem;
+	}
+	h3 {
+		font-size: 2.2rem;
+	}
+	p {
+		font-size: 1.4rem;
+		line-height: 2.3rem;
+	}
+	input {
+		max-width: 30rem;
+		font-size: 1.6rem;
+		font-weight: $heading-bold;
+		border: none;
+		outline: none;
+		color: $white;
+		border-radius: 3rem;
+		height: 6rem;
+		width: 100%;
+	}
+}

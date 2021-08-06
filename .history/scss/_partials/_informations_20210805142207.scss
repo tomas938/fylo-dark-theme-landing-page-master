@@ -1,0 +1,15 @@
+.informations {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: $main-bg;
+	padding: 3;
+	&__image {
+		img {
+			width: 100%;
+		}
+	}
+	&__content {
+	}
+}

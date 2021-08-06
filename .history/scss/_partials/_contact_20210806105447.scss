@@ -1,0 +1,54 @@
+.contact {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	.contact__item {
+		position: absolute;
+		box-shadow: 9px 11px 5px -3px rgba(0, 0, 0, 0.72);
+		width: 90%;
+		transform: translateY(-50%);
+		z-index: 1;
+		background-color: $intro-bg;
+		padding: 3rem;
+		border-radius: 1rem;
+		max-width: 80rem;
+		@media only screen and (max-width: 800px) {
+			max-width: 60rem;
+		}
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		grid-gap: 3rem;
+	}
+	h3 {
+		font-size: 2.2rem;
+	}
+	p {
+		font-size: 1.4rem;
+		line-height: 2.3rem;
+	}
+	input {
+		max-width: 60rem;
+		@media only screen and (max-width: 800px) {
+			max-width: 30rem;
+		}
+		font-size: 1.6rem;
+		font-weight: $heading-bold;
+		border: none;
+		outline: none;
+		color: $testimonials-bg;
+		border-radius: 3rem;
+		height: 6rem;
+		width: 100%;
+		padding: 0 2rem;
+
+		&::placeholder {
+			color: rgb(201, 195, 195);
+		}
+	}
+	.form {
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+	}
+}

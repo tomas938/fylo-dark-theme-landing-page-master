@@ -1,0 +1,14 @@
+.intro {
+	background-color: $intro-bg;
+	&__navigation {
+		display: flex;
+		// justify-content: space-between;
+	}
+	&__navigation__logo {
+		transform: scale(0.6);
+	}
+	&__navigation__links {
+	}
+	&__description {
+	}
+}

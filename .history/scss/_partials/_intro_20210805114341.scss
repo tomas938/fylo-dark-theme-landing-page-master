@@ -1,0 +1,22 @@
+.intro {
+	background-color: $intro-bg;
+	font-family: $heading-font;
+	&__navigation {
+		display: flex;
+		justify-content: space-between;
+	}
+	img {
+		width: 10rem;
+		height: 2.95rem;
+	}
+	&__navigation__links {
+		display: flex;
+	}
+	a {
+		color: $white;
+		font-weight: $heading-light;
+		font-size: 1.5rem;
+	}
+	&__description {
+	}
+}

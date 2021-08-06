@@ -1,0 +1,18 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	background-color: $footer-bg;
+	font-size: 1.4rem;
+	color: $white;
+	&__information {
+		display: flex;
+		flex-direction: column;
+	}
+
+	img {
+		width: 10rem;
+	}
+
+	.icon {
+	}
+}

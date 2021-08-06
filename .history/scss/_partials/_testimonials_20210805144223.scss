@@ -1,0 +1,13 @@
+.testimonials {
+	background-color: $main-bg;
+
+	&__item {
+		background-color: $testimonials-bg;
+	}
+	.person {
+		display: flex;
+	}
+	p {
+		font-size: 1.4rem;
+	}
+}

@@ -1,0 +1,13 @@
+.intro {
+	background-color: $intro-bg;
+	&__navigation {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__navigation__logo {
+	}
+	&__navigation__links {
+	}
+	&__description {
+	}
+}

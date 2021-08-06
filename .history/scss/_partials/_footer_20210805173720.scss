@@ -1,0 +1,25 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	background-color: $footer-bg;
+	font-size: 1.4rem;
+
+	&__information {
+		display: flex;
+		flex-direction: column;
+	}
+	&__information__item {
+		display: flex;
+		grid-gap: 3rem;
+	}
+	.logo {
+		width: 200rem;
+	}
+	img {
+		width: 5rem;
+		height: 5rem;
+	}
+	a {
+		color: $white;
+	}
+}

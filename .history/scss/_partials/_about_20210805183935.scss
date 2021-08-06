@@ -1,0 +1,38 @@
+.about {
+	display: grid;
+	grid-template-columns: 1fr;
+	@media only screen and (min-width: 800px) {
+		grid-template-columns: 25rem 25rem;
+		grid-gap: 5rem;
+		justify-content: center;
+	}
+	justify-items: center;
+	grid-gap: 5rem;
+	background-color: $main-bg;
+	font-family: $heading-font;
+	padding: 5rem 0;
+	&__item {
+		max-width: 35rem;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0 1.5rem;
+		grid-gap: 1rem;
+	}
+	.icon {
+		margin-bottom: 3rem;
+	}
+	h3 {
+		font-size: 2.2rem;
+	}
+	p {
+		font-size: 1.4rem;
+		line-height: 2.3rem;
+	}
+	h3,
+	p {
+		text-align: center;
+	}
+}
